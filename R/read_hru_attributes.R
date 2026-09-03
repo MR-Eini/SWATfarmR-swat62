@@ -106,6 +106,9 @@ read_table_linewise <- function(file_path, col_names, col_types, n_skip) {
       as.vector()
   }
 
+  # Declared types describe the known prefix; retain additional named fields.
+  if (length(col_types) > length(col_names)) col_types <- head(col_types, length(col_names))
+  col_types <- c(col_types, rep('c', length(col_names) - length(col_types)))
   col_fun <- map(col_types, ~ ifelse(.x == 'c', as.character, as.numeric))
 
   read_lines(file_path, skip = n_skip, lazy = FALSE) %>%
