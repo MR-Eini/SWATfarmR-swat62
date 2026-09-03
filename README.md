@@ -1,3 +1,16 @@
+<!-- swat62-version-navigation -->
+**Review the SWAT+ 62 package changes**
+
+| Source snapshot | Package version | Browse code |
+| --- | --- | --- |
+| Before this update | 4.0.4 | [Old source](https://github.com/MR-Eini/SWATfarmR-swat62/tree/before-swat62-update) |
+| Tested SWAT+ 62 update | 4.0.5 | [Updated source](https://github.com/MR-Eini/SWATfarmR-swat62/tree/swat62-v4.0.5) |
+
+**[Compare old and updated code](https://github.com/MR-Eini/SWATfarmR-swat62/compare/before-swat62-update...swat62-v4.0.5?w=1)** - GitHub highlights removed lines in red and added lines in green. Whitespace-only differences are hidden in this link; [show the complete diff](https://github.com/MR-Eini/SWATfarmR-swat62/compare/before-swat62-update...swat62-v4.0.5) if needed.
+
+[Version history and change summary](VERSION-HISTORY.md) explains the baseline and tested scope. Original author attribution and upstream Git history are preserved.
+<!-- /swat62-version-navigation -->
+
 # SWATfarmR <img src="man/figures/swatfarmr_hex.svg" align="right" />
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8041903.svg)](https://doi.org/10.5281/zenodo.8041903)
